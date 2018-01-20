@@ -5,6 +5,8 @@ suppressMessages({
   library(ggplot2)
   library(shinythemes)
   library(plotly)
+  library(DT)
+  library(dict)
 })
 
 ## read in cleaned wine data from csv file 
@@ -24,6 +26,7 @@ shinyUI(fluidPage(
     sidebarPanel(
       h6("Modify the options below to find a wine for any occasion and budget."), 
       uiOutput("continent"),
+      uiOutput("allcountries"), 
       uiOutput("countries"),
       uiOutput("points"),
       uiOutput("pricerange")
@@ -31,14 +34,13 @@ shinyUI(fluidPage(
     mainPanel(
       ## source: https://groups.google.com/forum/#!topic/shiny-discuss/hZNaJ_q1VbU
       tabsetPanel(type="tab",
-        tabPanel(title= "Plot",
-          suppressWarnings(suppressMessages(plotlyOutput("plot1"))),
-          suppressWarnings(suppressMessages(uiOutput("sortby"))), 
-          suppressWarnings(suppressMessages(tableOutput("viewtable")))
+        tabPanel(title= "Wine Results",
+          br(), 
+          suppressWarnings(suppressMessages(plotlyOutput("plot1")))
         ), 
-        tabPanel(title="Full Table",
+        tabPanel(title="Wine Details",
           suppressWarnings(suppressMessages(uiOutput("sortfulltableby"))),
-          suppressWarnings(suppressMessages(tableOutput("viewfull")))
+          suppressWarnings(suppressMessages(dataTableOutput("viewfull")))
         )
       )
     )
