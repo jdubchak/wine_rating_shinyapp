@@ -31,7 +31,7 @@ suppressMessages(countr_conts <- readr::read_csv("Countries-Continents-csv.csv")
 colnames(countr_conts) <- c("continent", "country")
 countr_conts <- semi_join(countr_conts, wine_dat, by = "country")
 countr_conts <- rbind(countr_conts, c("North America", "US"))
-countr_conts <- rbind(countr_conts, c("England", "Europe"))
+countr_conts <- rbind(countr_conts, c("Europe", "England"))
 
 ## these two functions map continent values by country in wine data 
 ## if the country from wine data is in the dataset of countries and continents, save the continent name 
