@@ -29,6 +29,7 @@ shinyUI(fluidPage(
       uiOutput("allcountries"), 
       uiOutput("countries"),
       uiOutput("points"),
+      uiOutput("grape"),
       uiOutput("pricerange")
     ),
     mainPanel(

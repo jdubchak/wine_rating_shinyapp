@@ -46,6 +46,11 @@ shinyServer(function(input, output) {
                                                                 multiple = TRUE)
   })
   
+  output$grape <- renderUI({
+    selectInput("grape", label = "Select Grape Varietal", 
+                choices = c("Red", "White"), multiple=TRUE)
+  })
+  
   output$pricerange <- renderUI({ 
     sliderInput("pricerange", label = h3("Select Price Range"), min =min_price, max = max_price, value = c(40, 150), step = 200)
   })
@@ -75,7 +80,8 @@ shinyServer(function(input, output) {
   if(input$allcountries%%2==1){
     wine_dat %>%
     filter(Continent %in% input$continent2) %>% 
-    filter(Country %in% unlist(lapply(input$continent2, function(x) country_dict[[x]]))) %>% 
+    filter(Country %in% unlist(lapply(input$continent2, function(x) country_dict[[x]]))) %>%
+    filter(Grape %in% input$grape) %>% 
     filter(Price>=input$pricerange[1]) %>%
     filter(Price<=input$pricerange[2]) %>%
     filter(Points>=points()[1]) %>%
@@ -84,6 +90,7 @@ shinyServer(function(input, output) {
     wine_dat %>%
     filter(Continent %in% input$continent2) %>%
     filter(Country %in% input$countries2) %>%
+    filter(Grape %in% input$grape) %>% 
     filter(Price>=input$pricerange[1]) %>%
     filter(Price<=input$pricerange[2]) %>%
     filter(Points>=points()[1]) %>%
@@ -104,7 +111,7 @@ shinyServer(function(input, output) {
 
   wine_fulltable <- reactive({
       wine_data() %>% 
-        select(Name, Price, Points, Description, Country, Variety) %>% 
+        select(Name, Price, Points, Description, Country, Variety, Grape) %>% 
         arrange(desc(Points))
   })
   
