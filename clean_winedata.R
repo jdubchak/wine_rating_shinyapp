@@ -52,5 +52,19 @@ continent <- lapply(wine_dat$country, check_filter)
 ## save all continent names as a variable in the wine data dataframe
 wine_dat$continent <- unlist(continent)
 
+## Add grape varietals 
+
+## get the grape type using the variety column 
+get_grape <- function(x){
+  row <- filter(wines_vars, variety==x)
+  return(row$Grape)
+}
+
+## apply get_grape function to every row of wine dataframe 
+grape_types <-lapply(wine_dat$variety, get_grape)
+
+## append this vector as a column in wine_dat
+wine_dat$Grape <- unlist(grape_types)
+
 ## save wine data dataframe as a csv file 
 write_csv(wine_dat, "clean_winedata.csv")

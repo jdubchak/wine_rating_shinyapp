@@ -1,0 +1,709 @@
+variety,Grape
+White Blend,White
+Portuguese Red,Red
+Pinot Gris,White
+Riesling,White
+Pinot Noir,Red
+Tempranillo-Merlot,Red
+Frappato,Red
+Gewürztraminer,White
+Cabernet Sauvignon,Red
+Nerello Mascalese,Red
+Chardonnay,White
+Malbec,Red
+Tempranillo Blend,Red
+Meritage,Red
+Red Blend,Red
+Merlot,Red
+Nero d'Avola,Red
+Chenin Blanc,White
+Gamay,Red
+Sauvignon Blanc,White
+Viognier-Chardonnay,White
+Primitivo,Red
+Catarratto,White
+Inzolia,White
+Petit Verdot,Red
+Monica,Red
+Bordeaux-style White Blend,White
+Grillo,White
+Sangiovese,Red
+Cabernet Franc,Red
+Champagne Blend,Red
+Bordeaux-style Red Blend,Red
+Aglianico,Red
+Petite Sirah,Red
+Touriga Nacional,Red
+Carmenère,Red
+Albariño,White
+Petit Manseng,White
+Rosé,Red
+Zinfandel,Red
+Vernaccia,White
+Rosato,Red
+Grüner Veltliner,White
+Viognier,White
+Vermentino,White
+Grenache Blanc,White
+Syrah,Red
+Nebbiolo,Red
+Shiraz-Cabernet Sauvignon,Red
+Pinot Blanc,White
+Alsace white blend,White
+Barbera,Red
+Rhône-style Red Blend,Red
+Portuguese White,White
+Graciano,Red
+Tannat-Cabernet,Red
+Sauvignon,Red
+Sangiovese Grosso,Red
+Torrontés,Red
+Prugnolo Gentile,Red
+G-S-M,Red
+Verdejo,White
+Fumé Blanc,White
+Furmint,White
+Pinot Bianco,White
+Bonarda,Red
+Shiraz,Red
+Montepulciano,Red
+Moscato,White
+Grenache,Red
+Ugni Blanc-Colombard,White
+Syrah-Viognier,Red
+Blaufränkisch,Red
+Friulano,White
+Assyrtico,White
+Carignan-Grenache,Red
+Sagrantino,Red
+Savagnin,White
+Cabernet Sauvignon-Syrah,Red
+Prosecco,White
+Vignoles,White
+Sparkling Blend,White
+Muscat,White
+Muscadelle,White
+Shiraz-Viognier,White
+Garganega,White
+Pinot Grigio,White
+Tempranillo,Red
+Zierfandler,White
+Cortese,White
+Mencía,Red
+Zweigelt,Red
+Melon,White
+Rhône-style White Blend,White
+Vidal,White
+Cannonau,Red
+Verdelho,White
+Marsanne,White
+Scheurebe,White
+Kerner,White
+Syrah-Grenache,Red
+Dolcetto,Red
+Vilana,White
+Glera,White
+Viura,White
+Garnacha Tintorera,Red
+Pinot Nero,Red
+Roter Veltliner,White
+Pinotage,Red
+Sémillon,White
+Pinot Noir-Gamay,Red
+Antão Vaz,White
+Cabernet Sauvignon-Carmenère,Red
+Verdejo-Viura,White
+Verduzzo,White
+Verdicchio,White
+Silvaner,White
+Colombard,White
+Carricante,White
+Sylvaner,White
+Fiano,White
+Früburgunder,Red
+Sousão,Red
+Roussanne,White
+Avesso,White
+Cinsault,Red
+Chinuri,White
+Tinta Miúda,Red
+Muscat Blanc à Petits Grains,White
+Portuguese Sparkling,White
+Monastrell,Red
+Xarel-lo,White
+Greco,White
+Trebbiano,White
+"Corvina, Rondinella, Molinara",Unknown
+Port,White
+Chenin Blanc-Chardonnay,White
+Insolia,White
+Merlot-Malbec,Red
+Ribolla Gialla,White
+Cabernet Sauvignon-Merlot,Red
+Duras,Red
+Weissburgunder,White
+Roditis,Red
+Traminer,White
+Papaskarasi,Red
+Tannat-Syrah,Red
+Marsanne-Roussanne,White
+Charbono,Red
+Merlot-Argaman,Red
+Prié Blanc,White
+Sherry,White
+Provence red blend,Red
+Tannat,Red
+Zibibbo,White
+Falanghina,White
+Garnacha,Red
+Negroamaro,Red
+Mourvèdre,Red
+Syrah-Cabernet,Red
+Müller-Thurgau,White
+Pinot Meunier,Red
+Cabernet Sauvignon-Sangiovese,Red
+Austrian Red Blend,Red
+Teroldego,Red
+Pansa Blanca,Red
+Muskat Ottonel,White
+Sauvignon Blanc-Semillon,White
+Claret,White
+Semillon-Sauvignon Blanc,White
+Bical,White
+Moscatel,White
+Rosado,Red
+Viura-Chardonnay,White
+Baga,Red
+Malvasia Bianca,White
+Gelber Muskateller,White
+Malbec-Merlot,Red
+Monastrell-Syrah,Red
+Malbec-Tannat,Red
+Malbec-Cabernet Franc,Red
+Turbiana,White
+Refosco,Red
+Alvarinho,White
+Manzoni,White
+Aragonês,Red
+Agiorgitiko,Red
+Malagousia,White
+Assyrtiko,White
+Ruché,Red
+Welschriesling,White
+Tinta de Toro,Red
+Cabernet Moravia,Red
+Rieslaner,White
+Traminette,White
+Chambourcin,Red
+Nero di Troia,Red
+Lambrusco di Sorbara,Red
+Cesanese,Red
+Feteasca Neagra,Red
+Lagrein,Red
+Tinta Fina,Red
+St. Laurent,Red
+Marsanne-Viognier,White
+Cabernet Sauvignon-Shiraz,Red
+Syrah-Cabernet Sauvignon,Red
+Gewürztraminer-Riesling,White
+Pugnitello,Red
+Cerceal,White
+Touriga Nacional Blend,Red
+Austrian white blend,White
+Tocai,Unknown
+Tinta Roriz,Red
+Chardonnay-Viognier,White
+Fernão Pires,White
+Cabernet Franc-Cabernet Sauvignon,Red
+Grenache-Syrah,Red
+Seyval Blanc,White
+Muscat Canelli,White
+Cabernet Merlot,Red
+Tempranillo-Cabernet Sauvignon,Red
+Arinto,White
+Aragonez,Red
+Merlot-Cabernet Franc,Red
+Syrah-Petite Sirah,Red
+Cabernet Blend,Red
+Maturana,Red
+Pecorino,White
+Rotgipfler,White
+Kinali Yapincak,White
+Cabernet Franc-Carmenère,Red
+Magliocco,Red
+Gamay Noir,Red
+Sauvignon Gris,White
+Spätburgunder,Red
+Picpoul,White
+Vidal Blanc,White
+Albanello,White
+White Port,White
+Arneis,White
+Malvasia,White
+Plavac Mali,Red
+Lemberger,Red
+Saperavi,Red
+Altesse,White
+Blanc du Bois,White
+Provence white blend,White
+Nosiola,White
+Dornfelder,Red
+Roussanne-Viognier,White
+Ojaleshi,White
+Godello,White
+Mondeuse,Red
+Perricone,Red
+Pedro Ximénez,White
+Auxerrois,White
+Syrah-Merlot,Red
+Albana,White
+Muskat,White
+Lambrusco,Red
+Cabernet Sauvignon-Malbec,Red
+Tinto Fino,Red
+Malbec-Cabernet Sauvignon,Red
+Moschofilero,White
+Grechetto,White
+Encruzado,White
+Carignano,Red
+Cabernet Franc-Merlot,Red
+Torbato,White
+Syrah-Petit Verdot,Red
+Garnacha Blanca,White
+Pallagrello,White
+Morava,White
+Syrah-Mourvèdre,Red
+Aleatico,Red
+Carcajolu,Red
+Kisi,White
+Shiraz-Grenache,Red
+Palomino,White
+Grenache-Carignan,Red
+Nascetta,White
+Siria,White
+Malbec-Syrah,Red
+Asprinio,White
+Feteascǎ Regalǎ,White
+Lambrusco Grasparossa,Red
+Marselan,Red
+Tocai Friulano,White
+Schiava,Red
+Alfrocheiro,Red
+Chardonnay-Semillon,White
+Corvina,Red
+Norton,Red
+Alicante Bouschet,Red
+Tokaji,White
+Moscadello,White
+Cabernet Sauvignon-Tempranillo,Red
+Carignan,Red
+Loureiro-Arinto,White
+Cabernet-Syrah,Red
+Sauvignon Blanc-Chardonnay,White
+Symphony,White
+Edelzwicker,White
+Madeira Blend,White
+Black Muscat,Red
+Grenache Noir,Red
+Durella,White
+Xinomavro,Red
+Tinto del Pais,Red
+Merlot-Cabernet Sauvignon,Red
+Cercial,White
+Johannisberg Riesling,White
+Petite Verdot,Red
+Passerina,White
+Valdiguié,Red
+Colombard-Sauvignon Blanc,White
+Kangoun,White
+Loureiro,White
+Posip,White
+Uva di Troia,Red
+Gros and Petit Manseng,White
+Jacquère,White
+Kalecik Karasi,Red
+Karasakiz,Red
+Mourvèdre-Syrah,Red
+Negrette,Red
+Zierfandler-Rotgipfler,White
+Clairette,White
+Raboso,Red
+País,Red
+Mauzac,White
+Pinot Auxerrois,White
+Chenin Blanc-Sauvignon Blanc,White
+Diamond,White
+Marzemino,Red
+Tinta Barroca,Red
+Chardonnay-Sauvignon Blanc,White
+Castelão,Red
+Trebbiano Spoletino,Red
+Teran,Red
+Trepat,Red
+Freisa,Red
+Neuburger,White
+Sämling,White
+Chasselas,White
+Hárslevelü,White
+Trincadeira,Red
+Merlot-Tannat,Red
+Rkatsiteli,White
+Melnik,Red
+Siegerrebe,White
+Trousseau Gris,White
+Grenache Blend,Red
+Gros Manseng,White
+Portuguese Rosé,Red
+Brachetto,Red
+Mantonico,White
+Ekigaïna,Red
+Muskateller,White
+Aligoté,White
+Sangiovese Cabernet,Red
+Touriga Nacional-Cabernet Sauvignon,Red
+Muscat Blanc,White
+Argaman,Red
+Viognier-Roussanne,White
+Pallagrello Bianco,White
+Bobal,Red
+Malvasia Istriana,White
+Cabernet Sauvignon-Cabernet Franc,Red
+Baco Noir,Red
+Veltliner,White
+Tempranillo-Tannat,Red
+Morillon,White
+Touriga Franca,Red
+Picolit,White
+Barbera-Nebbiolo,Red
+Prieto Picudo,Red
+Gaglioppo,Red
+Tokay,Red
+Sacy,White
+Piedirosso,Red
+Piquepoul Blanc,White
+Mansois,Red
+Chardonnay-Sauvignon,White
+Tempranillo-Garnacha,Red
+Carmenère-Cabernet Sauvignon,Red
+Chenin Blanc-Viognier,White
+Susumaniello,Red
+Vitovska,White
+Orange Muscat,White
+Grauburgunder,White
+Carignane,Red
+Moscatel Roxo,White
+Tannat-Merlot,Red
+Nerello Cappuccio,Red
+Counoise,Red
+Macabeo,White
+Mazuelo,Red
+Sauvignon-Sémillon,White
+Tinta del Pais,Red
+Vranec,Red
+Mavrud,Red
+Cesanese d'Affile,Red
+Moscato Giallo,White
+Debit,White
+Verdil,White
+Cabernet,Red
+Verduzzo Friulano,White
+Treixadura,White
+Loin de l'Oeil,White
+Coda di Volpe,White
+Grenache-Mourvèdre,Red
+Forcallà,Red
+Viura-Verdejo,White
+Bombino Bianco,White
+Pinot-Chardonnay,White
+Syrah-Tempranillo,Red
+Cabernet Sauvignon-Barbera,Red
+Merlot-Cabernet,Red
+Muscat d'Alexandrie,White
+Jaen,Red
+Tinta del Toro,Red
+Timorasso,White
+Pigato,White
+Sangiovese-Cabernet Sauvignon,Red
+Shiraz-Cabernet,Red
+Viognier-Gewürztraminer,White
+Prunelard,Red
+Sauvignon Blanc-Chenin Blanc,White
+Gros Plant,White
+Malbec-Petit Verdot,Red
+Colombard-Ugni Blanc,White
+Grignolino,Red
+Garnacha-Syrah,Red
+Rufete,Red
+Tempranillo-Shiraz,Red
+Mtsvane,White
+Chardonnay-Pinot Gris,White
+Marawi,White
+Chardonnay-Pinot Blanc,White
+Mataro,Red
+Tinta Cao,Red
+Blauer Portugieser,Red
+Ugni Blanc,White
+Groppello,Red
+Semillon-Chardonnay,White
+Irsai Oliver,White
+Alvarelhão,Red
+Poulsard,Red
+Grenache-Shiraz,Red
+Baga-Touriga Nacional,Red
+Carineña,Red
+Pignoletto,White
+Muscatel,White
+Mavrodaphne,Red
+Ciliegiolo,Red
+Viognier-Grenache Blanc,White
+Greco Bianco,White
+Cabernet Sauvignon-Merlot-Shiraz,Red
+Sciaccerellu,Red
+Zelen,White
+Alicante,Red
+Emir,White
+Rosenmuskateller,White
+Tsolikouri,White
+Narince,White
+Malbec-Cabernet,Red
+Touriga,Red
+Grecanico,White
+Carmenère-Syrah,Red
+Madeleine Angevine,White
+Mavroudi,Red
+Pinot Blanc-Pinot Noir,Red
+Muscat Hamburg,Red
+Tempranillo Blanco,White
+Casavecchia,Red
+Pinot Gris-Gewürztraminer,White
+White Riesling,White
+Tinto Velasco,Red
+Hondarrabi Zuri,White
+Nuragus,White
+Xynisteri,White
+Kadarka,Red
+Sauvignon Musqué,Red
+Roussanne-Marsanne,White
+Incrocio Manzoni,Unknown
+Terrantez,White
+Bual,White
+Okuzgozu,Red
+Rivaner,White
+Doña Blanca,White
+Graševina,White
+Lambrusco Salamino,Red
+Sangiovese-Syrah,Red
+Tannat-Cabernet Franc,Red
+Thrapsathiri,White
+Fer Servadou,Red
+Mission,Red
+Kekfrankos,Red
+Cococciola,White
+Blauburgunder,Red
+Marquette,Red
+Romorantin,White
+Verdejo-Sauvignon Blanc,White
+Braucol,Red
+Malvasia-Viura,White
+Savatiano,White
+Cabernet Franc-Malbec,Red
+Pallagrello Nero,Red
+Rebula,White
+Vespolina,Red
+Shiraz-Malbec,Red
+Rebo,Red
+Macabeo-Chardonnay,White
+Tempranillo-Malbec,Red
+Tamjanika,Red
+Trousseau,Red
+Bacchus,White
+Syrah-Malbec,Red
+Syrah-Cabernet Franc,Red
+Macabeo-Moscatel,White
+Cariñena-Garnacha,Unknown
+Plyto,White
+Códega do Larinho,White
+Sideritis,White
+Çalkarası,Red
+Azal,White
+Moscatel Graúdo,Unknown
+Viosinho,White
+Moschofilero-Chardonnay,White
+Paralleda,White
+Rara Neagra,Red
+Malvasia di Candia,White
+Maria Gomes,White
+Molinara,Red
+Malvar,White
+Airen,White
+Erbaluce,White
+Muscat of Alexandria,White
+Verdosilla,White
+Abouriou,Red
+Pinot Noir-Syrah,Red
+Nielluciu,Red
+Malbec-Bonarda,Red
+Vespaiolo,White
+Malbec-Carménère,Unknown
+Biancolella,White
+Sauvignon Blanc-Verdejo,White
+Aidani,White
+Garnacha-Monastrell,Red
+Vinhão,Red
+Souzao,Red
+Roter Traminer,White
+Moscatel de Alejandría,White
+Rolle,White
+Tinta Francisca,Red
+Malvasia Nera,White
+Orangetraube,White
+Riesling-Chardonnay,White
+Žilavka,White
+Portuguiser,Red
+Listán Negro,Red
+Pinotage-Merlot,Red
+Muscadine,Unknown
+Maria Gomes-Bical,White
+Grolleau,Red
+Zlahtina,White
+Syrah-Grenache-Viognier,Red
+Jacquez,White
+Gouveio,White
+Canaiolo,Red
+Carignan-Syrah,Red
+Bombino Nero,White
+Chardonnay-Riesling,White
+Malagouzia-Chardonnay,White
+Mavrotragano,Red
+Bovale,Red
+Frankovka,Red
+Shiraz-Roussanne,Red
+Cabernet-Shiraz,Red
+Syrah-Carignan,Red
+Elbling,White
+Gragnano,Red
+Garnacha Blend,Red
+Pinot Blanc-Chardonnay,White
+Schwartzriesling,White
+Petit Meslier,White
+Bastardo,Red
+Vidadillo,Red
+Misket,White
+Chardonnay Weissburgunder,White
+Other,Unknown
+Robola,White
+Merlot-Shiraz,Red
+Malagouzia,White
+Folle Blanche,White
+Malbec Blend,Red
+Merlot-Syrah,Red
+Tamianka,White
+Cabernet Pfeffer,Red
+Morio Muskat,White
+Rabigato,White
+Babić,Red
+Roviello,Unknown
+Yapincak,White
+Sauvignonasse,White
+Viognier-Marsanne,White
+Mandilaria,Red
+Meseguera,White
+Alvarinho-Chardonnay,White
+Saperavi-Merlot,Red
+Pinot Blanc-Viognier,White
+Teroldego Rotaliano,Red
+Biancu Gentile,White
+Garnacha-Tempranillo,Red
+Xinisteri,White
+Sauvignon Blanc-Sauvignon Gris,White
+Trebbiano di Lugana,Unknown
+Albarossa,Red
+Ryzlink Rýnský,White
+Verdeca,White
+Cabernet Sauvignon Grenache,Red
+Tămâioasă Românească,Unknown
+Black Monukka,Unknown
+Merlot-Grenache,Red
+Vranac,Red
+Tempranillo-Syrah,Red
+Chardonel,White
+Silvaner-Traminer,White
+Uvalino,Red
+Merseguera-Sauvignon Blanc,White
+Cabernet-Malbec,Red
+Boğazkere,Red
+Gelber Traminer,White
+Vermentino Nero,Red
+Cayuga,White
+Tinta Amarela,Red
+Tinta Negra Mole,Red
+Moscato Rosa,White
+Chelois,Red
+Sauvignon Blanc-Assyrtiko,White
+Unknown,Unknown
+Muscadel,White
+Shiraz-Tempranillo,Red
+Roussanne-Grenache Blanc,White
+Biancale,White
+Ansonica,White
+Syrah-Bonarda,Red
+Durif,Red
+Franconia,Red
+Malbec-Tempranillo,Red
+Nasco,White
+Monastrell-Petit Verdot,Red
+Sirica,Red
+Vital,White
+Espadeiro,Red
+Apple,White
+Pinot Grigio-Sauvignon Blanc,White
+Blatina,Red
+Karalahna,Unknown
+Feteasca,White
+Sercial,White
+Valvin Muscat,White
+Malvasia Fina,White
+Roditis-Moschofilero,White
+St. Vincent,Red
+Chancellor,Red
+Premsal,White
+Jampal,Unknown
+Tokay Pinot Gris,White
+Colorino,Red
+Picapoll,White
+Blauburger,Red
+Tinta Madeira,White
+Centesimino,Red
+Grenache Gris,White
+Trajadura,White
+Merlot-Petite Verdot,Red
+Ramisco,Red
+Catalanesca,White
+Garnacha-Cabernet,Red
+Garnacha-Cariñena,Unknown
+Gamza,Red
+Cabernet Franc-Lemberger,Red
+Chardonnay-Albariño,White
+Shiraz-Mourvèdre,Red
+Mavrokalavryta,Red
+Favorita,White
+Babosa Negro,Red
+Tintilia,Red
+Dafni,Red
+Petit Courbu,White
+Kotsifali,Red
+Parraleta,Red
+Moscato di Noto,White
+Roscetto,White
+Torontel,White
+Otskhanuri Sapere,Red
+Viognier-Valdiguié,Red
+Trollinger,Red
+Tsapournakos,Red
+Francisa,Red
+Kuntra,Red
+Pignolo,Red
+Caprettone,White
+Ondenc,White
+Athiri,White
+Bobal-Cabernet Sauvignon,Red
