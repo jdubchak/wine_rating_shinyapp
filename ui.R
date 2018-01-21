@@ -20,13 +20,16 @@ wine_dat <- rename(wine_dat,
 shinyUI(fluidPage(
   theme=shinytheme("paper"),
   
-  titlePanel("Find a Great Wine!"),
+  titlePanel("Wine For You and Wine For Me"),
+  h4("Find a wine for any occasion and budget"),
   
   sidebarLayout(
     sidebarPanel(
-      h6("Modify the options below to find a wine for any occasion and budget."), 
+      width=3,
+      h6("Modify the options below to find your ideal wine. For further details, click the Wine Details tab."),
       uiOutput("continent"),
-      uiOutput("allcountries"), 
+      uiOutput("allcountries"),
+      h6("Note: Figure will not display until at least one country, or Select All Countries, is selected."),
       uiOutput("countries"),
       uiOutput("points"),
       uiOutput("grape"),
@@ -37,7 +40,8 @@ shinyUI(fluidPage(
       tabsetPanel(type="tab",
         tabPanel(title= "Wine Results",
           br(), 
-          suppressWarnings(suppressMessages(plotlyOutput("plot1")))
+          suppressWarnings(suppressMessages(plotlyOutput("plot1", height="500px"))),
+          uiOutput("colourby")
         ), 
         tabPanel(title="Wine Details",
           suppressWarnings(suppressMessages(uiOutput("sortfulltableby"))),
