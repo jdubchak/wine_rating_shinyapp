@@ -9,6 +9,8 @@ library(dict)
 ## read in cleaned wine data from csv file 
 suppressWarnings(suppressMessages(wine_dat <- readr::read_csv("clean_winedata.csv")))
 
+wine_dat <- wine_dat %>% mutate(price = round(price, 2), points= round(points,2))
+
 suppressWarnings({wine_dat <- wine_dat %>% 
   mutate(price = as.numeric(price))})
 
@@ -29,12 +31,12 @@ country_dict[["Europe"]] <- c("Italy", "Portugal", "Spain", "France", "Germany",
 
 min_price <- 4
 
-max_price <- 3300
+max_price <- 890
 
 shinyServer(function(input, output){ 
   
   output$continent <- renderUI({
-    checkboxGroupInput("continent2", "Continent", choices = sort(unique(wine_dat$Continent))[-7], selected = "Africa")
+    checkboxGroupInput("continent2", "Continent", choices = sort(unique(wine_dat$Continent))[-7], selected = "Oceania")
   })
   
   output$points <- renderUI({
@@ -56,13 +58,13 @@ shinyServer(function(input, output){
   })
   
   output$pricerange <- renderUI({ 
-    sliderInput("pricerange", label = h6("Select Price Range"), min =min_price, max = max_price, value = c(40, 150), step = 200)
+    sliderInput("pricerange", label = h6("Select Price Range"), min =min_price, max = max_price, value = c(40, 150), step = 100)
   })
   
-  output$allcountries <- renderUI({checkboxInput("allcountries", label = "Select All Countries")})
+  output$allcountries <- renderUI({checkboxInput("allcountries", label = "Select All Countries", value=TRUE)})
   
   output$colourby <- renderUI({
-    selectInput("colourby", label = "Colour Points By", selected = "Country",
+    selectInput("colourby", label = "Colour Points By", selected = "Grape Variety",
                 choices = c("Country", "Continent", "Grape Variety"))
   })
     
@@ -128,12 +130,12 @@ shinyServer(function(input, output){
   output$plot1 <- renderPlotly({
       g <- ggplot(wine_data(), aes(Name=Name)) + 
       geom_jitter(aes(Price, Points, col=colour()), alpha=0.6) +
-      labs(x="Price (USD)", y="Wine Rating", title="Comparison of Wine Quality and Price by Country", colour="Colours") +
+      labs(x="Price (USD)", y="Wine Rating", title="Comparison of Wine Quality and Price") +
       theme_minimal() +
-      theme(legend.position = "bottom", plot.title = element_text(hjust = 0.5, size=18), axis.title.x = element_text(size=13),
+      theme(legend.title =element_blank(),plot.title = element_text(hjust = 0.5, size=18), axis.title.x = element_text(size=13),
             axis.title.y = element_text(size=13)) + scale_fill_viridis(option = "magma")
       ## plotly_build source: https://stackoverflow.com/a/45316028/8666137
-      pl <- plotly_build(g)
+      pl <- ggplotly(g) %>% layout(legend = list(x=1, y=0.5))
   })
 
   wine_fulltable <- reactive({

@@ -14,6 +14,9 @@ suppressWarnings(suppressMessages(wine_dat <- readr::read_csv("winemag-data-130k
 wine_dat <- wine_dat %>% 
   select(-c(region_2, taster_twitter_handle, taster_name))
 
+## remove 16 wines with high prices 
+wine_dat <- wine_dat %>% filter(price < 900)
+
 ## convert na values to "Unknown"
 ## function source: https://stackoverflow.com/a/31034685/8666137
 wine_dat_unknowns <- apply(wine_dat, 2, function(x){
@@ -53,6 +56,7 @@ continent <- lapply(wine_dat$country, check_filter)
 wine_dat$continent <- unlist(continent)
 
 ## Add grape varietals 
+wines_vars <- readr::read_csv("grape_varieties.csv")
 
 ## get the grape type using the variety column 
 get_grape <- function(x){

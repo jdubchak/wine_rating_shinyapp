@@ -7,6 +7,7 @@ suppressMessages({
   library(plotly)
   library(DT)
   library(dict)
+  library(shinycssloaders)
 })
 
 ## read in cleaned wine data from csv file 
@@ -28,9 +29,9 @@ shinyUI(fluidPage(
       width=3,
       h6("Modify the options below to find your ideal wine. For further details, click the Wine Details tab."),
       uiOutput("continent"),
-      uiOutput("allcountries"),
       h6("Note: Figure will not display until at least one country, or Select All Countries, is selected."),
       uiOutput("countries"),
+      uiOutput("allcountries"), 
       uiOutput("points"),
       uiOutput("grape"),
       uiOutput("pricerange")
@@ -40,7 +41,7 @@ shinyUI(fluidPage(
       tabsetPanel(type="tab",
         tabPanel(title= "Wine Results",
           br(), 
-          suppressWarnings(suppressMessages(plotlyOutput("plot1", height="500px"))),
+          suppressWarnings(suppressMessages(plotlyOutput("plot1", height="500px"))) %>% withSpinner(),
           uiOutput("colourby")
         ), 
         tabPanel(title="Wine Details",
