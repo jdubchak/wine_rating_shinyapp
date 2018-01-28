@@ -1,5 +1,8 @@
 # Wine For You and Wine For Me
 
+## Data
+The dataset used for this Shiny app was downloaded from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews/data).
+
 ## Purpose 
 [This Shiny app](https://jdubchak.shinyapps.io/wine_rating_shinyapp/) was created for DSCI 532 (Visualization 2) to fulfill its usage scenario below.   
 
